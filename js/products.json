@@ -1,0 +1,44 @@
+{
+"Men":[
+   {
+      "sleeve":"short",
+      "size":"small",
+      "colors":"white, black, red, yellow, orange, blue, green, gray"
+   },
+   {
+      "sleeve":"short",
+      "size":"medium",
+      "colors":"white, black, red, yellow, orange, blue, green, gray"
+   },
+   {
+      "sleeve":"short",
+      "size":"large",
+      "colors":"white, black, red, yellow, orange, blue, green, gray"
+   },
+   {
+      "sleeve":"short",
+      "size":"x-large",
+      "colors":"white, black, red, yellow, orange, blue, green, gray"
+   },
+   {
+      "sleeve":"long",
+      "size":"small",
+      "colors":"white, black, red, yellow, orange, blue, green, gray"
+   },
+   {
+      "sleeve":"long",
+      "size":"medium",
+      "colors":"white, black, red, yellow, orange, blue, green, gray"
+   },
+   {
+      "sleeve":"long",
+      "size":"large",
+      "colors":"white, black, red, yellow, orange, blue, green, gray"
+   },
+   {
+      "sleeve":"long",
+      "size":"x-large",
+      "colors":"white, black, red, yellow, orange, blue, green, gray"
+   }
+  ]
+}
