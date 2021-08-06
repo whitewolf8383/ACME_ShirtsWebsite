@@ -1,10 +1,7 @@
 const { createServer } = require('http');
 const fs = require('fs');
 const port = 3000;
-// Get Express
-const express = require('express');
-const app = express();
-app.use(express.static());
+
 // Require JSON data
 const jsonData = require('./products.json');
 const productData = jsonData.Men;
