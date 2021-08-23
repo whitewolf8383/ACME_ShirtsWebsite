@@ -1,0 +1,105 @@
+<!doctype html>
+<!--
+   File: products.html
+   Author: ICT-4305 as-provided
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACME Shirts Products</title>
+    <link href="css/acme_styles.css" rel="stylesheet" />   <!-- link to external css file -->
+    <script defer src="js/productapp.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- ACME logo image -->
+        <img src="images/Acme_logo.png" alt="ACME Logo Image" />
+    </header>
+
+    <nav>                                <!-- navigation links -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+	         <li><a href="products.html">Products</a></li>
+	         <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>                               <!-- content area of web page -->
+        <h1>ACME Shirts</h1>
+        <h2>Short Sleeve</h2>              <!-- ACME Shirts Headings -->
+        <p id="short-sleeve">Insert your JSON Short Sleeve Shirts file contents here</p>
+      <!-- Short Sleeve JSON file content -->
+      <div style="max-width: 400px; border: solid 1px black; text-align: center; margin:auto;">
+        <p>Only $19.95</p>
+        <!-- Dropdowns for short sleeve -->
+        <label for="short-gender"style="color:black; text-align: center;">Gender</label>
+        <select name="short-gender" id="short-gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <label for="short-size"style="color:black; text-align: center;">Size</label>
+        <select name="short-size" id="short-size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="extra-large">Extra-Large</option>
+        </select>
+
+        <label for="short-color"style="color:black; text-align: center;">Color</label>
+        <select name="short-color" id="short-color">
+            <option value="red">Red</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+        </select>
+        <label for="short-quantity" style="color:black; text-align: center;">Quantity</label>
+        <input id="short-quantity" type="number" min=0 max=1000>
+        <button id="short-submit" style="display: block; margin: 5px auto;">ADD</button>
+      </div>
+        <h2>Long Sleeve</h2>
+        <p id="long-sleeve">Insert your JSON Long Sleeve Shirts file contents here</p>
+      <!-- Long Sleeve JSON file content -->
+      <div style="max-width: 400px; border: solid 1px black; text-align: center; margin:auto;">
+        <p>Only $24.95</p>
+        <label for="long-gender"style="color:black; text-align: center;">Gender</label>
+        <select name="long-gender" id="long-gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <label for="long-size"style="color:black; text-align: center;">Size</label>
+        <select name="long-size" id="long-size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="extra-large">Extra-Large</option>
+        </select>
+        <label for="long-color"style="color:black; text-align: center;">Color</label>
+        <select name="long-color" id="long-color">
+            <option value="red">Red</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+        </select>
+        <label for="long-quantity" style="color:black; text-align: center;">Quantity</label>
+        <input id="long-quantity" type="number" min=0 max=1000>
+        <button id="long-submit" style="display: block; margin: 5px auto;">ADD</button>
+      </div>
+      <button id="viewCartbtn" style="display: block; margin: 15px auto;">View Cart</button>
+        
+    </main>
+
+    <footer>		                         <!-- footer content -->
+	     <p>University of Denver University College</p>
+	     <p>2021</p>
+    </footer>
+
+</body>
+</html>
